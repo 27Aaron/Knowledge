@@ -1,29 +1,9 @@
-@font-face {
-  font-family: "Roboto Mono";
-  font-weight: 200 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("https://letui-game-res.oss-cn-shenzhen.aliyuncs.com/tmp/RobotoMono.ttf");
-}
-
-@font-face {
-  font-family: "霞鹜文楷等宽";
-  font-weight: 200 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("https://letui-game-res.oss-cn-shenzhen.aliyuncs.com/tmp/LXGWWenKaiMono-Regular.ttf");
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css");
 
 :root {
   --ct-text-size: 20px;
   --ct-line-height: 1.6;
-  --ls-font-family: Roboto Mono, "Only Emoji", "霞鹜文楷等宽";
+  --ls-font-family: "LXGW WenKai Screen";
   --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: Roboto Mono,"霞鹜文楷等宽", monospace;
-}
-.CodeMirror {
-  font-family: Roboto Mono,"霞鹜文楷等宽", monospace;
-}
-:not(pre)>code {
-  font-family: Roboto Mono,"霞鹜文楷等宽", monospace;
+  --ct-code-font-family: "LXGW WenKai Screen";
 }
